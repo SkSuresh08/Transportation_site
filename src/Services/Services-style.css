@@ -1,0 +1,79 @@
+.srv-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: #f2f2f4;
+  margin: 0;
+  margin-top: 30px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.text-1 {
+  font-size: 25px;
+  font-weight: 800;
+  color: red;
+}
+
+.text-1,
+.text-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-2 h1 {
+  color: black;
+}
+.heading {
+  text-align: center;
+  margin: 50px 0px;
+  color: #fff;
+  font-size: 55px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service {
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+.service i {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 18px;
+}
+
+.service h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 17px;
+  line-height: 1.4;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.service img {
+  width: 60px;
+  margin-bottom: 18px;
+}

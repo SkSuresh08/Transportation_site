@@ -1,0 +1,88 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-form {
+  width: 500px;
+  color: black;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+form div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+form .register-a {
+  margin-left: 195px;
+}
+form #name,
+#email,
+#password,
+#confirmPassword {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-size: 16px;
+  color: black;
+  padding: 20px 40px 20px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form h1 {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  border-bottom: 2px solid #e35d2b;
+  margin-bottom: 20px;
+}
+
+form .register-btn {
+  margin-left: 50px;
+  width: 80%;
+  height: 45px;
+  background: #e35d2b;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+form label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+form .error {
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+form div {
+  margin-left: 15px;
+}

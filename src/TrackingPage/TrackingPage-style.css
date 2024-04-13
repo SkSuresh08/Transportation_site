@@ -1,0 +1,70 @@
+.tracking-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  width: 50%;
+}
+
+.main-tracking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.tracking-container h1 {
+  color: black;
+}
+.tracking-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tracking-list {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tracking-item {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-name {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.item-status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.item-status.in-transit {
+  background-color: #ffc107;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-location,
+.item-delivery-date {
+  display: flex;
+  align-items: center;
+}
+
+.item-location i,
+.item-delivery-date i {
+  margin-right: 5px;
+}

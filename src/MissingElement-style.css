@@ -1,0 +1,20 @@
+.missing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+}
+
+.center-image {
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+  margin: 0;
+}

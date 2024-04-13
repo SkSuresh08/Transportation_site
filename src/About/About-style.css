@@ -1,0 +1,83 @@
+.abt-container {
+  max-width: max-content;
+  display: flex;
+  padding: 70px 100px;
+}
+
+.CounterUp {
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background-color: #f2f2f4;
+  border-radius: 10px;
+}
+
+.counter-container {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.CounterUp .num h1 {
+  color: #e35d2b;
+  font-size: 30px;
+}
+
+.CounterUp .num-Lable {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+#abt-caption {
+  margin-left: -300px;
+  margin-top: 70px;
+  width: 70%;
+}
+
+#abt-caption text{
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#abt-caption img {
+  position: absolute;
+  width: 30%;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  opacity: 0.5;
+  right: 10px;
+  bottom: -10px;
+}
+
+#abt-caption p {
+  font-weight: 800;
+  font-size: 25px;
+  color: #e35d2b;
+}
+
+#abt-caption span {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+#img-container img {
+  width: 55%;
+}
+
+#img-container h2 {
+  margin-top: -8px;
+  border: 1px solid #e35d2b;
+  width: 49.3%;
+  color: #fff;
+  text-align: center;
+  padding: 22px;
+  background-color: #e35d2b;
+}

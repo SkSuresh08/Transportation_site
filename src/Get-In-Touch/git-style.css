@@ -1,0 +1,62 @@
+section {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+#git p {
+  color: black;
+  line-height: 35px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 20px;
+  font-weight: 550;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#git h2 {
+  padding-bottom: 15px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+section form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section input[type="text"],
+section input[type="email"],
+section textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #fff;
+  border: 2px solid #f2f2f4;
+}
+
+section button[type="submit"] {
+  background-color: #e35d2b;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+  width: 90%;
+  font-size: 18px;
+}

@@ -1,0 +1,58 @@
+.container {
+  width: fixed;
+  display: flex;
+  padding-left: 50px;
+  margin: 0;
+  background-color: #f2f2f4;
+  gap: 30px;
+}
+
+.abt-caption {
+  display: absolute;
+  padding: 0;
+  padding-top: 50px;
+  padding-right: 50px;
+  width: 50%;
+}
+
+.abt-caption p {
+  font-weight: 800;
+  font-size: 25px;
+  color: red;
+}
+
+.abt-caption span {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+#image-container {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#image-container img {
+  width: 60%;
+}
+.list {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.list img {
+  width: 15px;
+}
+
+.list li {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.abt-caption text{
+  line-height: 35px;
+}
